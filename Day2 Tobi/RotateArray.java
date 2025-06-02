@@ -1,11 +1,11 @@
 public class RotateArray{
 
 	public static int[][] rotate(int[][] num){
-		int[][] empty = new int[num.length][];
-		int control = 2;
+		int[][] num = new int[num.length][num[0].length];
 		for(int index = 0; index < num.length; index++){
+			int control = 2;
 			for(int count = 0; count < num[index].length; count++){
-				empty[ount][control] = num[control][index];
+				empty[index][count] = num[control][index];
 				control--;
 				}
 			}		
